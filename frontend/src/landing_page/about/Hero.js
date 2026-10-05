@@ -39,7 +39,12 @@ function Hero() {
             community initiatives to empower retail traders and investors.
           </p>
           <p>
-            <a href="" style={{ textDecoration: "none" }}>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
               Rainmatter
             </a>
             , our fintech fund and incubator, has invested in several fintech

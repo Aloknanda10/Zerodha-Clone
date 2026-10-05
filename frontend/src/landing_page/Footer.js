@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -6,50 +7,114 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img
+              alt="Logo"
+              src="/media/images/logo.svg"
+              style={{ width: "50%" }}
+            />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
             <p>Company</p>
-            <a href="">About</a>
+            <Link to="/about">About</Link>
             <br />
-            <a href="">Products</a>
+            <Link to="/product">Products</Link>
             <br />
-            <a href="">Pricing</a>
+            <Link to="/pricing">Pricing</Link>
             <br />
-            <a href="">Referral programme</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Referral programme
+            </a>
             <br />
-            <a href="">Careers</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Careers
+            </a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zerodha.tech
+            </a>
             <br />
-            <a href="">Press & media</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Press & media
+            </a>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zerodha cares (CSR)
+            </a>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a href="">Contact</a>
+            <Link to="/support">Contact</Link>
             <br />
-            <a href="">Support portal</a>
+            <Link to="/support">Support portal</Link>
             <br />
-            <a href="">Z-Connect blog</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Z-Connect blog
+            </a>
             <br />
-            <a href="">List of charges</a>
+            <Link to="/pricing">List of charges</Link>
             <br />
-            <a href="">Downloads & resources</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Downloads & resources
+            </a>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="">Open an account</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open an account
+            </a>
             <br />
-            <a href="">Fund transfer</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fund transfer
+            </a>
             <br />
-            <a href="">60 day challenge</a>
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              60 day challenge
+            </a>
             <br />
           </div>
         </div>

@@ -13,7 +13,8 @@ function Team() {
       >
         <div className="col-6 p-3 text-center">
           <img
-            src="media/images/nithinKamath.jpg"
+            alt="Nithin kamath"
+            src="/media/images/nithinKamath.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
           />
           <h4 className="mt-5">Nithin Kamath</h4>
@@ -31,8 +32,30 @@ function Team() {
           </p>
           <p>Playing basketball is his zen.</p>
           <p>
-            Connect on <a href="">Homepage</a> / <a href="">TradingQnA</a> /{" "}
-            <a href="">Twitter</a>
+            Connect on{" "}
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Homepage
+            </a>{" "}
+            /{" "}
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TradingQnA
+            </a>{" "}
+            /{" "}
+            <a
+              href="https://zerodha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
           </p>
         </div>
       </div>
